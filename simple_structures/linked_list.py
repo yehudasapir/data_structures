@@ -5,6 +5,12 @@ class Node:
         self.cargo = cargo
         self.next  = next
 
+    def has_next(self):
+    	if self.next == None:
+    		return False
+    	else:
+    		return True
+
     def __str__(self):
         return str(self.cargo)
 
