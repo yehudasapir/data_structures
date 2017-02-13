@@ -16,7 +16,7 @@ class Node:
 
     def __eq__(self,other):
     	if(other == None):
-    		if(self.cargo == None and self.next == Node):
+    		if(self.cargo == None and self.next == None):
     			return True
     		return False
     	return self.cargo == other.cargo
